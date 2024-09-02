@@ -1,0 +1,142 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+header h1 {
+  font-style: italic;
+}
+header a {
+  padding-top: 30px;
+}
+.container {
+  margin-top: 50px;
+}
+.container h1 {
+  text-align: center;
+}
+.container #new {
+  opacity: 0.7;
+  padding-left: 10rem;
+}
+.container2 #new2 {
+  opacity: 0.7;
+  padding-left: 10rem;
+}
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 20px;
+  width: 100%;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  background-origin: white;
+  margin: 40px;
+}
+.cards button {
+  border-radius: 20px;
+  height: 50px;
+}
+.card img {
+  z-index: 1;
+  animation: bounce1 2s 1s;
+}
+.card img:hover {
+  transform: translateY(-50px);
+}
+.card {
+  z-index: 1;
+}
+.line {
+  height: 2px;
+  width: 100vw;
+  position: relative;
+  border-bottom: 2px solid black;
+  bottom: -285px;
+}
+.line2 {
+  height: 2px;
+  width: 100vw;
+  position: absolute;
+  border-bottom: 2px solid black;
+  bottom: -313px;
+}
+.line3 {
+  height: 2px;
+  width: 100vw;
+  position: absolute;
+  border-bottom: 2px solid black;
+  bottom: -771px;
+}
+.card1 img:hover {
+  content: url("./Img3_3.png");
+  transform: translateY(-50px);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  transition: all 7s 2s ease-in-out;
+  animation: bounce1 7s 1s;
+}
+@keyframes bounce1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.card2 img:hover {
+  content: url("./Img-Il-Biscotto-Sbrisolotto_\(600x600\).png");
+  animation: bounce1 7s 1s;
+  transition: all 7s 2s ease-in-out;
+}
+.card3 img:hover {
+  content: url("./Img_l-Biscotto-Muscovado-e-Cannella.png");
+  animation: bounce1 7s 1s;
+  transition: all 7s 2s ease-in-out;
+}
+.card4 img:hover {
+  content: url("./Img3_3.png");
+  animation: bounce1 3s 1s ease;
+}
+img:hover + p {
+  opacity: 0.7;
+}
+.card1 button:hover {
+  background-color: black;
+  color: white;
+}
+.card2 button:hover {
+  background-color: black;
+  color: white;
+}
+.card3 button:hover {
+  background-color: black;
+  color: white;
+}
+.card4 button:hover {
+  background-color: black;
+  color: white;
+}
+.cards #p1 {
+  text-align: center;
+}
+.cards #p2 {
+  margin-top: 2rem;
+}
+.container3 .cards {
+  justify-content: center;
+}
